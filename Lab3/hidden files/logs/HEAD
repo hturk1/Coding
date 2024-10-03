@@ -1,0 +1,13 @@
+0000000000000000000000000000000000000000 aaf2d4a9c10f444eb17fdefd6221a04f930a41c3 Hakan Turk <hakanturk@Hakans-Air.MG8702> 1727400847 -0400	commit (initial): initial commit
+aaf2d4a9c10f444eb17fdefd6221a04f930a41c3 aaf2d4a9c10f444eb17fdefd6221a04f930a41c3 Hakan Turk <hakanturk@Hakans-Air.MG8702> 1727401042 -0400	checkout: moving from master to model
+aaf2d4a9c10f444eb17fdefd6221a04f930a41c3 79b868659f036186631eb687c6cb7121d57a4878 Hakan Turk <hakanturk@Hakans-Air.MG8702> 1727401761 -0400	commit: Model changed
+79b868659f036186631eb687c6cb7121d57a4878 aaf2d4a9c10f444eb17fdefd6221a04f930a41c3 Hakan Turk <hakanturk@Hakans-Air.MG8702> 1727401903 -0400	checkout: moving from model to master
+aaf2d4a9c10f444eb17fdefd6221a04f930a41c3 aaf2d4a9c10f444eb17fdefd6221a04f930a41c3 Hakan Turk <hakanturk@Hakans-Air.MG8702> 1727401943 -0400	checkout: moving from master to view
+aaf2d4a9c10f444eb17fdefd6221a04f930a41c3 360261d552a1fd5a3a6cb07e16159ac7c893d7df Hakan Turk <hakanturk@Hakans-Air.MG8702> 1727402159 -0400	commit: View changed
+360261d552a1fd5a3a6cb07e16159ac7c893d7df aaf2d4a9c10f444eb17fdefd6221a04f930a41c3 Hakan Turk <hakanturk@Hakans-Air.MG8702> 1727402182 -0400	checkout: moving from view to master
+aaf2d4a9c10f444eb17fdefd6221a04f930a41c3 aaf2d4a9c10f444eb17fdefd6221a04f930a41c3 Hakan Turk <hakanturk@Hakans-Air.MG8702> 1727402249 -0400	checkout: moving from master to controller
+aaf2d4a9c10f444eb17fdefd6221a04f930a41c3 5da987bc3147cf70487fd6895b7a863d4baf4415 Hakan Turk <hakanturk@Hakans-Air.MG8702> 1727402334 -0400	commit: Controller changed
+5da987bc3147cf70487fd6895b7a863d4baf4415 aaf2d4a9c10f444eb17fdefd6221a04f930a41c3 Hakan Turk <hakanturk@Hakans-Air.MG8702> 1727402349 -0400	checkout: moving from controller to master
+aaf2d4a9c10f444eb17fdefd6221a04f930a41c3 79b868659f036186631eb687c6cb7121d57a4878 Hakan Turk <hakanturk@Hakans-Air.MG8702> 1727402855 -0400	merge model: Fast-forward (no commit created; -m option ignored)
+79b868659f036186631eb687c6cb7121d57a4878 f9840f54a20b7c99fc1be532d7cda31ede274e02 Hakan Turk <hakanturk@Hakans-Air.MG8702> 1727402935 -0400	merge view: Merge made by the 'ort' strategy.
+f9840f54a20b7c99fc1be532d7cda31ede274e02 c7cb3612247739bfcfa43cc54d500a623dd5be82 Hakan Turk <hakanturk@Hakans-Air.MG8702> 1727402957 -0400	merge controller: Merge made by the 'ort' strategy.
