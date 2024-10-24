@@ -20,8 +20,8 @@
       "type": "lldb",
       "request": "launch",
       "args": [],
-      "cwd": "/Users/hakanturk/C++",
-      "program": "/Users/hakanturk/C++/build/Debug/outDebug"
+      "cwd": "/Users/hakanturk/VSCode/Coding/CIS350",
+      "program": "/Users/hakanturk/VSCode/Coding/CIS350/build/Debug/outDebug"
     }
   ]
 }
