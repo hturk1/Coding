@@ -1,8 +1,22 @@
 import socket
-import sys #needed for command-line if I am not mistaken
+import sys
 
-#server details
-SERVER_HOST = sys.argv[1] #take ip from command line
+defaultIP = '127.0.0.1' #make default IP server's IP
+
+#test to see if IP is given by user
+try:
+    inputIP = sys.argv[1] #get IP from command-line
+except IndexError:
+    print(f"IP not given. Now using default server IP ({defaultIP}).")
+    inputIP = defaultIP
+
+#if IP given is not same as server, we force user to change IP
+if inputIP != defaultIP:
+    print(f"There is no server with this IP. Try again...")
+    sys.exit(1) #abort 
+    
+
+SERVER_HOST = inputIP #use IP given by command-line
 SERVER_PORT = 12345
 
 #create a TCP socket
@@ -47,5 +61,9 @@ while True:
                 break  #break out to end connection
             elif data == "301 WRONG PASSWORD": #if incorrect password
                 print("Incorrect password...")
+    
+    else:
+        print(f"Command given is not an option. Disconnecting...")
+        break
 
 client_socket.close()

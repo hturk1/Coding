@@ -41,7 +41,8 @@ while True:
     #handle QUIT
     elif data == "QUIT":
         conn.sendall("200 OK\n".encode())
-        break  #break out to close connection
+        print(f"server still accepting new connections...")
+        break #break out to close connection with client 
 
     #handle SHUTDOWN
     elif data == "SHUTDOWN":
@@ -49,10 +50,11 @@ while True:
         password = conn.recv(1024).decode().strip()
         if password == Password: #if given password is same as default
             conn.sendall("200 OK\n".encode())
-            break  #break out to close connection
+            break #break out to close connection
         else:
             conn.sendall("301 WRONG PASSWORD\n".encode()) #if given passedword is not same as default
 
 #close connection
 conn.close()
 server_socket.close()
+
