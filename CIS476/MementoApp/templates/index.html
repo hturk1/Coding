@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Football Tactics Manager</title>
+</head>
+<body>
+
+<h1>Football Tactics Time Machine</h1>
+
+<p><b>Current Formation:</b> {{ formation }}</p>
+<p><b>Play Style:</b> {{ style }}</p>
+
+<h3>Change Tactics</h3>
+
+<form method="post">
+    Formation:
+    <input name="formation" placeholder="4-3-3">
+
+    Style:
+    <input name="style" placeholder="Attacking">
+
+    <button name="action" value="set">Set Tactics</button>
+</form>
+
+<br>
+
+<form method="post">
+    <button name="action" value="save">Save State</button>
+    <button name="action" value="undo">Undo</button>
+</form>
+
+<p>Saved States: {{ history }}</p>
+
+</body>
+</html>
